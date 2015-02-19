@@ -1,0 +1,6 @@
+# COMMON OPENSTACK ENVS
+export OS_USERNAME={{ maas_keystone_user }}
+export OS_PASSWORD={{ maas_keystone_password }}
+export OS_TENANT_NAME={{ maas_keystone_tenant }}
+export OS_AUTH_URL={{ maas_keystone_endpoint }}
+export OS_NO_CACHE=1
